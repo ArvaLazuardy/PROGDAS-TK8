@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-double addCalc() {
-
+double addCalc(double a, double b) {
+    return a+b;
 }
 
 double subCalc() {
@@ -19,12 +19,13 @@ double divCalc() {
 int main() {
     int pilihan;
     double number1, number2;
+    double result;
     
     printf("=== KALKULATOR ===\n");
-    printf("1. Addition\n");
-    printf("2. Subtraction\n");
-    printf("3. Multiplication\n");
-    printf("4. Division\n");
+    printf("1. Addition (a+b)\n");
+    printf("2. Subtraction (a-b)\n");
+    printf("3. Multiplication (axb)\n");
+    printf("4. Division (a/b)\n");
     printf("Choose which function to use: ");
     scanf("%d", &pilihan);
 
@@ -36,7 +37,7 @@ int main() {
     printf("\n");
     switch (pilihan) {
         case 1: 
-        
+            result = addCalc(number1, number2);
             break;
         case 2:
             
@@ -49,7 +50,7 @@ int main() {
             break;
         default:
             printf("Please insert a valid choice!\n");
-            break;
+            return 0;
     }
 
     return 0;
