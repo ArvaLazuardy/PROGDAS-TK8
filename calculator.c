@@ -4,7 +4,8 @@ double addCalc(double a, double b) {
     return a+b;
 }
 
-double subCalc() {
+double subCalc(double a, double b) {
+    return a - b;
 
 }
 
@@ -40,7 +41,7 @@ int main() {
             result = addCalc(number1, number2);
             break;
         case 2:
-            
+            result = subCalc(number1, number2);
             break;
         case 3:
             
@@ -53,5 +54,6 @@ int main() {
             return 0;
     }
 
+ 	printf("Result : %.2lf", result);
     return 0;
 }
