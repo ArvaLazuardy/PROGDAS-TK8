@@ -1,10 +1,11 @@
 [Setup Tasks]
 Create GitHub Repo & Invite Collaborators: Arva
-Initialize README.md: [Name]
+Initialize README.md: Jovan 
 
 [Coding Tasks - calculator.c]
 Main Menu & Input Logic: Arva
 Addition function: Arva
-Subtraction function: [Name]
+Subtraction function: Jovan
 Multiplication function: [Name]
 Division function: [Name]
+Output logic : Jovan
