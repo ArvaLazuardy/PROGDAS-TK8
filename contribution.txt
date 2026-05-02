@@ -6,6 +6,6 @@ Initialize README.md: Jovan
 Main Menu & Input Logic: Arva
 Addition function: Arva
 Subtraction function: Jovan
-Multiplication function: [Name]
-Division function: [Name]
+Multiplication function: Sentanu
+Division function: Sentanu
 Output logic : Jovan
