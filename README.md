@@ -32,7 +32,9 @@ Jovan: Subtraction function
 
 # Sentanu : Multiplication function
 
-# Sentanu : Division function (include 0 check)
+Sentanu : Division function (include 0 check)
+Jovan : Output Logic
+===
 
 # 
 
