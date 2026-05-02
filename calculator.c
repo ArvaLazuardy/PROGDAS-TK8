@@ -6,15 +6,14 @@ double addCalc(double a, double b) {
 
 double subCalc(double a, double b) {
     return a - b;
-
 }
 
-double mulCalc() {
-
+double mulCalc(double a, double b) {
+    return a * b;
 }
 
-double divCalc() {
-
+double divCalc(double a, double b) {
+    return a / b;
 }
 
 int main() {
@@ -44,10 +43,10 @@ int main() {
             result = subCalc(number1, number2);
             break;
         case 3:
-            
+            result = mulCalc(number1, number2);
             break;
         case 4:
-
+            result = divCalc(number1, number2);
             break;
         default:
             printf("Please insert a valid choice!\n");
